@@ -27,6 +27,7 @@ node ('new')
    deploy adapters: [tomcat9(credentialsId: '95eab3a0-0d96-4a28-a6e2-ee5259f4f079', path: '', url: 'http://172.31.14.153:8080')], contextPath: 'Proddeploy', onFailure: false, war: '**/*.war'
   }   
  
+
 }
 
 
